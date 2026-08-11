@@ -18,3 +18,13 @@ if is_school_zone == True:
 
 if fine >= 0:
     print(f"Your final ticket is:${fine}")
+
+#### Prob 5
+# - Scenario: A traffic camera calculates fines for speeding. The fine increases the faster the driver goes, and fines are doubled in school zones.
+#- Inputs: driver_speed (number), speed_limit (number), is_school_zone (boolean).
+#- Task: For this problem, you do not need to ask for the inputs using input(), instead directly assign values to those variables in your program. 
+ # - If speed < speed_limit: No fine.
+  #- 1–10 mph over: $50 fine.
+  #- 11–20 mph over: $100 fine.
+  #- 21+ mph over: $250 fine and a license suspension warning.
+  #- Rule: If is_school_zone is true, double the calculated fine before printing the final ticket amount.
