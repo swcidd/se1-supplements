@@ -6,4 +6,4 @@ for char in text:
         new_string += "*" 
     else:
         new_string += char
-print(new_string)
+print(new_string) 
