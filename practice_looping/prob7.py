@@ -32,4 +32,6 @@ print("Starting number with longest sequence:", longest_start)
 print("Number of steps", max_steps)
 
 
-        
+n = 5
+for i in range(n):
+    print('*'*n)
