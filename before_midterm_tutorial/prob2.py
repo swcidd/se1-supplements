@@ -16,7 +16,7 @@ def factorial(n):
     return result
 
 # Test
-print(factorial(5))  # 120
+print(factorial(4))  # 120
 print(factorial(0))  # 1
 
 #Reverse a number
